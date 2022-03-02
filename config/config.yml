@@ -1,0 +1,17 @@
+defaults: &defaults
+  api:
+    url: 'http://tweeps.locaweb.com.br/tweeps'
+    locaweb_user: '@locaweb'
+    user: 'ingrid.santos@locaweb.com'
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults
